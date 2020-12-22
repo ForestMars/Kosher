@@ -6,7 +6,7 @@
 .. image:: assets/kosher_pickle_logo.png
   :target: https://github.com/ForestMars/Kosher
 
-:green: `Kosher Pickles is an encryption model for securing serialized objects. ``
+`Kosher Pickles is an encryption model for securing serialized objects. ``
 
 
 Installation
