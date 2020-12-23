@@ -20,7 +20,7 @@ Easily protect your serialized class objects with secure encryption. Kosher Pick
 Installation
 ------------
 
-Requirements
+Requirements:
 ~~~~~~~~~~~~
 
 - cryptography
@@ -75,6 +75,14 @@ To check out the latest version for development or other use::
     git clone https://github.com/forestmars/kosher
 
 
+Testing
+~~~~~~~
+
+To run the test suite make sure you have either pytest or Nose2 test runner installed and run as normal.
+
+  Nice module you got there. Would be a shame if someone were to write **tests** for i.
+
+
 Supported Standards
 ~~~~~~~~~~~
 
@@ -84,11 +92,6 @@ The included AES implementation defaults to CBF (Cipher feedback) block cipher m
 
 Fernet also uses 128-bit AES, but in CBC mode with PKCS7 padding, and HMAC using SHA256 for authentication.
 
-
-Testing
-~~~~~~~
-
-Currently using Nose2 for test runner. To run the test suite make sure you have Node2 installed and issue the command::
 
 
 Warning
