@@ -103,7 +103,7 @@ N.B. Kosher Pickles is seriously strong encyption. If you lose the key phrase yo
 Project History
 ---------------
 
-Based on a discussion at PyCon about the need for encrypted pickles in general, then created to meet financial company compliance requirements.
+Based on a discussion at PyCon about the need for encrypted pickles in general; subsequntly created to meet financial company compliance requirements.
 
 
 Roadmap
