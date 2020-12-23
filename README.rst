@@ -37,7 +37,7 @@ Using ``pip``: ::
 
     pip install -U kosher
 
-conda package is in the works.
+Conda package is in the works.
 
 
 Usage
@@ -54,16 +54,16 @@ Add Mixin to your existing class: ::
       def __init__():
         pass
 
-Any object of the type `MyObjectClass` will now be pickled with encryption, and require the same secret for `'pickle.load()'`
+Any object of the type `MyObjectClass` will now be pickled with encryption, and require the same secret for ``'pickle.load()'``
 
 
 Development
 -----------
 
-Development is very active to meet a number of appoaches to using Kosher Pickles, and how private key management is handled.
+Development is very active to accommodate a number of appoaches to using Kosher Pickles, and how private key management is handled.
 
 It would be great to see more contributers to Kosher Pickles. We welcome any feature requests, and of course, pull requests.
-In particular, if you are interested in expanding test coverage, this is obiviously very important for an encryption module.
+In particular, if you are interested in expanding test coverage, this is (obviously) very important for an encryption module.
 
 
 
@@ -80,7 +80,7 @@ Testing
 
 To run the test suite make sure you have either pytest or Nose2 test runner installed and run as normal.
 
-  Nice module you got there. Would be a shame if someone were to write **tests** for i.
+    *Nice module you got there. Would be a shame if someone were to write **tests** for it.*
 
 
 Supported Standards
