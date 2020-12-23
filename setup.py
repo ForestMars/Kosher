@@ -1,8 +1,10 @@
 import setuptools
 
 
-with open("README.rst", "r") as file:
-    long_description = file.read()
+# Pypi doesn't seem to like .rst
+#with open("README.rst", "r") as file:
+#    long_description = file.read()
+long_description = "Easily protect your serialized class objects with secure encryption. Kosher Pickles provides a Mixin you can use in any classes you wish to protect."
 
 
 setuptools.setup(

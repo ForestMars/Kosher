@@ -1,0 +1,7 @@
+README.rst
+mixin.py
+setup.py
+kosher.egg-info/PKG-INFO
+kosher.egg-info/SOURCES.txt
+kosher.egg-info/dependency_links.txt
+kosher.egg-info/top_level.txt

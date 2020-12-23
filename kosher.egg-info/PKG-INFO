@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: kosher
+Version: 0.1
+Summary: Encrypted Pickles
+Home-page: https://github.com/forestmars/kosher
+Author: Forest Mars
+Author-email: themarsgroup+pypi@gmail.com
+License: UNKNOWN
+Description: Easily protect your serialized class objects with secure encryption. Kosher Pickles provides a Mixin you can use in any classes you wish to protect.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
