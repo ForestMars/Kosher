@@ -80,7 +80,7 @@ Testing
 
 To run the test suite make sure you have either pytest or Nose2 test runner installed and run as normal.
 
-    *Nice module you got there. Would be a shame if someone were to write **tests** for it.*
+    *Nice module you got there. Would be a shame if someone were to write* **tests** *for it.*
 
 
 Supported Standards
