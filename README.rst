@@ -52,9 +52,9 @@ Add Mixin to your existing class::
 
 .. code:: python
 
-  class MyObjectClass(Object, KosherPickleMixin)
+  ``class MyObjectClass(Object, KosherPickleMixin)
       def __init__():
-        pass
+        pass``
 
 Any object of the type `MyObjectClass` will now be pickled with encryption, and require the same secret for `'pickle.load()'`
 
