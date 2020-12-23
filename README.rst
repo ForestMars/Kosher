@@ -33,7 +33,7 @@ Requirements
 Install
 ~~~~~~~~~~~~~~~~~
 
-Using ``pip``   ::
+Using ``pip``: ::
 
     pip install -U kosher
 
@@ -48,13 +48,11 @@ Kosher provides a pickle mixin, `KosherPickleMixin.` Adding this mixin to any cl
 Example
 ~~~~~~~~~~~~~~~~~
 
-Add Mixin to your existing class::
+Add Mixin to your existing class: ::
 
-.. code:: python
-
-  ``class MyObjectClass(Object, KosherPickleMixin)
+  class MyObjectClass(Object, KosherPickleMixin)
       def __init__():
-        pass``
+        pass
 
 Any object of the type `MyObjectClass` will now be pickled with encryption, and require the same secret for `'pickle.load()'`
 
