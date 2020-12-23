@@ -3,7 +3,7 @@
 Kosher Pickles
 =================
 -------------------------
-`Kosher Pickles is an encryption module for securing serialized objects.`
+Encryption module for securing serialized objects.
 -------------------------
 
 .. image:: assets/kosher_pickle_logo.png
@@ -48,9 +48,13 @@ Kosher provides a pickle mixin, `KosherPickleMixin.` Adding this mixin to any cl
 Example
 ~~~~~~~~~~~~~~~~~
 
-class MyObjectClass(Object, KosherPickleMixin)
-    def __init__():
-      pass
+Add Mixin to your existing class::
+
+.. code:: python
+
+  class MyObjectClass(Object, KosherPickleMixin)
+      def __init__():
+        pass
 
 Any object of the type `MyObjectClass` will now be pickled with encryption, and require the same secret for `'pickle.load()'`
 
@@ -92,7 +96,7 @@ Currently using Nose2 for test runner. To run the test suite make sure you have 
 Warning
 ~~~~~~~
 
-N.B. Kosher Pickles is seriously strong encyption. If you lose the key phrase you created to secure your pickles, it's extremely unlikely you will recover them, unless you have access to a quantum comupter and a time span several orders of magnitude greater than the age of the known universe. 
+N.B. Kosher Pickles is seriously strong encyption. If you lose the key phrase you created to secure your pickles, it's extremely unlikely you will recover them, unless you have access to a quantum comupter and a time span several orders of magnitude greater than the age of the known universe.
 
 
 Project History
