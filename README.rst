@@ -12,17 +12,17 @@
 Installation
 ------------
 
-Dependencies
+Requirements
 ~~~~~~~~~~~~
 
-- Crypto
 - cryptography
+- pycryptodome
 - pickle
 
 =======
 
 
-Installation
+Install
 ~~~~~~~~~~~~~~~~~
 
 Using ``pip``   ::
@@ -32,12 +32,26 @@ Using ``pip``   ::
 conda package is in the works.
 
 
+Usage
+-----------
+
+Kosher provides a pickle mixin, `KosherPickleMixin.` Adding this mixin to any class enables it to be encrypted transparently whenever it is saved as a .pkl file.
+
+Example
+~~~~~~~~~~~~~~~~~
+
+class MyObjectClass(Object, KosherPickleMixin)
+    def __init__():
+      pass
+
+Any object of the type `MyObjectClass` will now be pickled with encryption, and require the same secret for `'pickle.load()'`
+
 
 Development
 -----------
 
 It would be great to see more contributers to Kosher Pickles. We welcome any feature requests, and of course, pull requests.
-In particular, if you are interested in expanding test coverage, this is obivious very important for an encryption module.
+In particular, if you are interested in expanding test coverage, this is obiviously very important for an encryption module.
 
 
 

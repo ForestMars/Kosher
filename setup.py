@@ -8,9 +8,9 @@ with open("README.rst", "r") as file:
 setuptools.setup(
     name='kosher',
     version='0.1',
-    scripts=['mixins.py'] ,
+    scripts=['mixin.py'] ,
     author="Forest Mars",
-    author_email="themarsgroup+kosher@gmail.com",
+    author_email="themarsgroup+pypi@gmail.com",
     description="Encrypted Pickles",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -18,7 +18,10 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: Apache License",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
          ],
     )
