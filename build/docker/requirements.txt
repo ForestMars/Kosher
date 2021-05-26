@@ -1,0 +1,4 @@
+flask
+nltk
+pandas
+sklearn==0.22.2.post1

@@ -1,6 +1,8 @@
 README.rst
-mixin.py
 setup.py
+kosher/__init__.py
+kosher/gcm.py
+kosher/mixin.py
 kosher.egg-info/PKG-INFO
 kosher.egg-info/SOURCES.txt
 kosher.egg-info/dependency_links.txt
